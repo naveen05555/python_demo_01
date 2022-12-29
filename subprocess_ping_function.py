@@ -12,6 +12,6 @@ def check_ip(ip_address):
 	else:
 		return False, result.stderr
 
-print(check_ip('10.64.86.1'))
+print(check_ip('10.64.86.231'))
 
 print(check_ip('a'))
